@@ -1,0 +1,10 @@
+.image_td {
+	text-align: center;
+}
+.image_td .image_icon {
+	margin: 3px 0px;
+}
+.image_td .image_icon img {
+	max-width: 140px;
+	max-height: 50px;
+}

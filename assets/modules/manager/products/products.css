@@ -1,0 +1,16 @@
+.show-details {
+	margin: auto;
+}
+
+.order-details {
+	min-height: 20px;
+}
+
+.order-details .image_td img {
+	max-width: 100px;
+	max-height: 30px;
+}
+
+.order-details .data_table {
+	border-radius: 0px;
+} 

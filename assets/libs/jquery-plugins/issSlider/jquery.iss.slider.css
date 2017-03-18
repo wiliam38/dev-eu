@@ -1,0 +1,53 @@
+.iss-slider {
+	position: relative;
+	width: 730px;
+}
+.iss-slider .iss-slider-prev {
+	position: absolute;
+	cursor: pointer;
+	background: url('img/arrow-left.png') no-repeat;
+	width: 24px;
+	height: 23px;
+	display: block;
+	top: 58px;
+	left: 13px;
+}
+.iss-slider .iss-slider-next {
+	position: absolute;
+	cursor: pointer;
+	background: url('img/arrow-right.png') no-repeat;
+	width: 24px;
+	height: 23px;
+	display: block;
+	top: 58px;
+	right: 13px;
+}
+
+.iss-slider .iss-slider-wrapper {
+	overflow: hidden;
+	position: relative;
+	height: 120px;
+	width: 630px; 
+	margin: 0px 50px;
+}
+
+.iss-slider .iss-slider-wrapper .iss-slider-list {
+	position: absolute;
+	height: 120px;
+}
+
+.iss-slider .iss-slider-wrapper .iss-slider-list .item {
+	width: 120px;
+	height: 120px;
+	margin: 0px 3px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+	display: block;
+	float: left;
+}
+.iss-slider .iss-slider-wrapper .iss-slider-list .item img {
+	max-width: 120px;
+	max-height: 120px;
+}
+
+

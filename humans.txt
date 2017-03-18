@@ -1,0 +1,25 @@
+//---------------------------------------------------------------------//
+//                    *** COMPANY INFORMATION ***                      //
+//---------------------------------------------------------------------//
+
+Company name:   Insisoft, SIA
+ 
+Site:           http://www.insisoft.lv
+                http://www.iss.lv
+                
+E-mail:         info@insisoft.lv
+                info@iss.lv
+                
+Mobile phone:   +371 22511110
+
+Location:       Riga, Latvia.
+							
+//---------------------------------------------------------------------//
+//                            *** SITE ***                             //
+//---------------------------------------------------------------------//
+
+Last update:    N/A
+
+Standards:      HTML, CSS, PHP
+
+Components:     jQuery

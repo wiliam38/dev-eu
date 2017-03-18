@@ -1,0 +1,113 @@
+.page .content-wrapper .content .profile {
+	width: 750px;
+	right: -750px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: #ffffff;
+	z-index: 6000;
+	padding: 40px 60px 40px 60px;
+	
+	font-size: 14px;
+	color: #4d4d4d;
+		
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.page .content-wrapper .content .profile #profile_content {
+	height: 100%;
+}
+
+.page .content-wrapper .content .profile p {
+	margin: 0px;
+}
+
+.page .content-wrapper .content .profile .close-button {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	background: url('../../templates/main/img/close.png') no-repeat center center;
+	width: 34px;
+	height: 35px;
+}
+
+.page .content-wrapper .content .profile h2 {
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-bottom: 1px solid #dcdbdb;
+	margin: 0px 0px 15px 0px;
+	padding-bottom: 10px;
+}
+
+.page .content-wrapper .content .profile input[type="text"],
+.page .content-wrapper .content .profile input[type="password"] {
+	background-color: #f0f0f0;
+	border: 1px solid #e5e4e4;
+	width: 221px;
+	height: 25px;
+	padding: 2px 7px;
+}
+
+.page .content-wrapper .content .profile .mCSB_outside + .mCSB_scrollTools {
+	right: -55px;
+	top: -30px;
+	bottom: -30px;
+}
+
+.login-table {
+	margin-top: 10px;
+	color: #3b3b3b;
+	font-size: 16px;
+}
+.login-table tr {
+	height: 35px;
+}
+.login-table tr th {
+	width: 130px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #1c1c1c;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.login-table .login-social {
+	padding-left: 30px;
+}
+.login-draugiem {
+	background: url('img/draugiem.png') no-repeat;
+	display: inline-block;
+	width: 200px;
+	height: 32px;
+}
+.login-facebook {
+	background: url('img/facebook.png') no-repeat;
+	display: inline-block;
+	width: 200px;
+	height: 32px;
+}
+
+.login-table #login_error,
+.login-table #register_error,
+.login-table #edit_error {
+	color: #FF0000;
+	font-size: 12px;
+}
+
+.login-table a {
+	color: #2e876d;
+	text-align: center;
+}
+
+/* PROFILE */
+.profile-panel {
+	position: relative;
+}
+.profile-panel .profile-logout {
+	position: absolute;
+	right: 40px;
+}

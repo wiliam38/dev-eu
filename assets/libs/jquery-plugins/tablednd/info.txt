@@ -1,0 +1,4 @@
+$(obj).closest('table.prices_table').tableDnD({
+	dragIconHandle: 'short_handle',
+	onDragClass: 'edit'
+});

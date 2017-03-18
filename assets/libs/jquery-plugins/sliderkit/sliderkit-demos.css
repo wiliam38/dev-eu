@@ -1,0 +1,88 @@
+/** 
+ *  sliderkit-demos.css
+ *	> CSS code for demos
+ *  
+ *  This file is part of Slider Kit jQuery plugin.
+ *  http://www.kyrielles.net/sliderkit/
+ *  
+ *  Copyright (c) 2010-2012 Alan Frog
+ *  Licensed under the GNU General Public License
+ *  See <license.txt> or <http://www.gnu.org/licenses/>
+ *
+ */
+
+/*
+ *  PHOTOS GALLERIES
+ *  ------------------------------------------------
+ */
+
+/*---------------------------------
+ *  Photos gallery > With captions
+ *---------------------------------*/
+.photosgallery-captions{width:100%;height:400px;padding:0 0 105px;}
+
+/* Navbar */
+.photosgallery-captions .sliderkit-nav{
+	left:0;
+	bottom:0;
+	width:100%;
+	height: 90px;
+	padding:0px 40px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.photosgallery-captions .sliderkit-nav-clip ul li{
+	float:left;
+	margin:0;
+	width:25%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.photosgallery-captions .sliderkit-nav-clip ul li a{
+	display:block;width:100%;height:90px;overflow:hidden;margin:0; padding: 0px 3px;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.photosgallery-captions .sliderkit-nav-clip ul li a img { 
+	max-width: 100%; 
+	max-height: 100%;
+}
+.photosgallery-captions .sliderkit-nav-clip ul li.sliderkit-selected a{ opacity: 0.6; }
+
+/* Buttons */
+.photosgallery-captions .sliderkit-btn{position:absolute;top:0;}
+.photosgallery-captions .sliderkit-btn a{display:block;width: 34px;height:90px;background:transparent no-repeat center top;}
+.photosgallery-captions .sliderkit-btn span{display:none;}
+.photosgallery-captions .sliderkit-btn-disable{opacity:0.8/*can be set to any value until 1*/;}
+.photosgallery-captions .sliderkit-btn-disable a:hover{cursor:default;}
+
+/* Buttons > Go buttons */
+.photosgallery-captions .sliderkit-go-btn{width:10px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev{left:0px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next{right:25px;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a{background-position:bottom center; background-image: url('img/left.png');}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a{background-position:bottom center; background-image: url('img/right.png');}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-go-prev a:focus{background-position:top center;}
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a:hover,
+.photosgallery-captions .sliderkit-nav .sliderkit-go-next a:focus{background-position:top center;}
+
+/* Panel */
+.photosgallery-captions .sliderkit-panel {top:0;left:0;width:100%;height:400px; text-align: center;}
+.photosgallery-captions .sliderkit-panel img { max-height: 400px; max-width: 100%; margin: auto; display: block;}
+
+/* Panel > Textbox */
+.photosgallery-captions .sliderkit-panel .sliderkit-panel-textbox{bottom:0;left:0;width:500px;height:70px;}
+.photosgallery-captions .sliderkit-panel .sliderkit-panel-text{height:50px;padding:10px 15px;font-size:0.9em;color:#fff;}
+.photosgallery-captions .sliderkit-panel .sliderkit-panel-text h4{height:auto;margin:0 0 7px;line-height:1.1em;font-size:1.1em;font-weight:bold;border:none;}
+.photosgallery-captions .sliderkit-panel .sliderkit-panel-overlay{width:500px;height:70px;background:#000;opacity:0.6;}

@@ -1,0 +1,156 @@
+.product-specification {
+	border: 1px solid #888888;
+	border-collapse: collapse;
+}
+.product-specification td {
+	border: 1px solid #888888;
+	text-align: center;
+}
+.product-specification td img {
+	max-height: 30px;
+	vertical-align: middle;
+}
+.product-specification td input {
+	vertical-align: middle;
+}
+
+.product-specification .spec-title {
+	text-align: left;
+}
+.product-specification .spec-title img {
+	max-width: 40px;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.gallery-data .gallery-item {
+	float: left;
+	width: 200px;
+	padding: 30px 10px 10px 10px;
+	border: 1px solid #888888;
+	border-radius: 3px;
+	margin: 0px 5px 5px 0px;
+	position: relative;
+}
+.gallery-lang-title {
+	width: 32px;
+	display: block;
+	float: left;
+}
+.gallery-main-image {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	color: #000000;
+}
+.gallery-image-wrapper {
+	text-align: center;
+	width: 200px;
+	height: 170px;
+	margin-bottom: 5px;
+}
+.gallery-item-remove {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 19px;
+	color: #ff2222 !important;
+	padding: 1px;
+}
+.gallery-item-remove:hover {
+	border: 1px solid #888888;
+	border-radius: 3px;
+	padding: 0px;
+}
+
+
+#categories .category-settings {
+	margin-left: 0px;
+}	
+#categories .category-settings .item .title {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 15px;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+	font-style: italic;
+	color: #4F4F4F;
+}
+#categories .category-settings .item .values {
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+#categories .category-settings .item .values .value-item {
+	float: left;
+	width: 270px;
+	margin: 2px 3px;
+}
+
+.category-title {
+	border-bottom: 1px solid #777777;
+	padding-top: 15px;
+	padding-bottom: 3px;
+	text-align: left;
+	font-size: 15px;
+}
+.category-title-next td,
+.category-title-next th {
+	padding-top: 5px;
+}
+
+
+.resource_data .image_icon {
+	width: 250px;
+	height: 240px;
+	border: 1px solid #999999;
+	margin: 0px 25px 10px 25px;
+}
+.resource_data .image_icon img {
+	max-width: 247px;
+	max-height: 240px;
+}
+
+.recipe-preview {
+	border: 1px solid #999999;
+	width: 800px;
+	min-height: 250px;
+	max-height: 400px;
+}
+.recipe-preview h2 {
+	margin: 15px 0px 5px 0px;
+}
+.recipe-preview h3 {
+	margin: 15px 0px 5px 0px;
+}
+.recipe-preview p {
+	margin: 3px 0px;
+}
+
+
+.prices_table .image_td {
+	text-align: center;
+	padding: 3px;
+	vertical-align: top;
+}
+.prices_table .image_td .image_icon {
+	margin: 3px 0px;
+}
+.prices_table .image_td .image_icon img {
+	max-width: 150px;
+	max-height: 100px;
+}
+
+#resource_lang_tabs tr.cat {
+	display: none;
+}
+#resource_lang_tabs tr.cat.active {
+	display: table-row;
+}

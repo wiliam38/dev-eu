@@ -1,0 +1,23 @@
+{
+	"name": "tomlankhorst/kohana-3.2-mysqli",
+	"type": "kohana-module",
+	"description": "Kohana 3.2 MySQLi driver.",
+	"homepage": "https://github.com/allanlaal/kohana-3.2-mysqli",
+	"license": "BSD-3-Clause",
+	"keywords": ["kohana", "databases", "mysql", "mysqli"],
+	"authors": [
+		{
+			"name": "Allan Laal",
+			"homepage": "http://www.permanent.ee",
+			"role": "developer"
+		}
+	],
+	"support": {
+		"forum": "http://forum.kohanaframework.org",
+		"irc": "irc://irc.freenode.net/kohana",
+		"source": "https://github.com/allanlaal/kohana-3.2-mysqli"
+	},
+	"require": {
+		"kohana/database": "v3.2"
+	}
+}

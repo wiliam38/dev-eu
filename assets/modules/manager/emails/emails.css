@@ -1,0 +1,10 @@
+.emails_table tbody tr {
+	height: 20px;
+}
+.emails_table tbody td {
+	font-size: 11px;
+}
+.emails_table tbody tr td input.ui-button {
+	height: 20px;
+	padding: 0px 4px;
+}

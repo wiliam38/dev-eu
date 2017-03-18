@@ -1,0 +1,10 @@
+.data_table th {
+	border: 1px solid #E3E3E3 !important;
+}
+.data_table td {
+	border: 1px solid #C3C3C3 !important;
+}
+a.button {
+	padding-top: 2px !important;
+	padding-bottom: 0px !important;
+}

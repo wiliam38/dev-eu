@@ -1,0 +1,64 @@
+input[type="text"].ui-combobox-input {
+	height: 19px;
+	border-radius: 3px 3px 3px 3px;
+	padding-right: 25px;
+	display: inline;
+	vertical-align: top;
+	background-image: url('images/button.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+input[type="text"].ui-combobox-input:hover {
+	background-image: url('images/button-hover.png');
+	cursor: default;
+}
+input[type="text"][disabled].ui-combobox-input,
+input[type="text"][disabled].ui-combobox-input:hover,
+input[type="text"][disabled].ui-combobox-input:active {
+	background-image: url('images/button-disabled.png');
+}
+.ui-combobox-button {
+	width: 25px;
+	min-width: 25px !important;
+	border-left: 0px none;
+	overflow: hidden;
+	display: inline;
+	vertical-align: top;
+}
+.ui-combobox-button span.ui-icon {
+	margin-top: -7px !important;
+}
+
+.ui-autocomplete {
+	max-height: 172px;
+	overflow: auto;
+	overflow-x: hidden; 
+	z-index: 9999999999 !important;
+	padding: 0px;
+}
+
+.ui-autocomplete .ui-menu-item {
+	min-height: 16px;
+	margin-right: 20px;
+	display: block;
+	border: 0px none;
+}
+.ui-autocomplete .ui-menu-item a {
+	min-height: 16px;
+	padding: 0px 4px 0px 4px;
+	font-weight: normal;
+}
+.ui-autocomplete .ui-menu-item.ui-state-hover a,
+.ui-autocomplete .ui-menu-item.ui-state-active a,
+.ui-autocomplete .ui-menu-item.ui-state-focus a {
+	min-height: 16px;
+	color: #000000;
+}
+
+.ui-autocomplete-loading { 
+	background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat; 
+}
+
+.issComboboxActive {
+	color: #000000;
+}

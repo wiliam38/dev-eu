@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+
+.rich_text_icon {
+	display: inline-block;
+	vertical-align: top;
+	height: 22px;
+	margin-left: -4px;
+}
+.rich_text {
+	width: 170px !important;
+	resize: none;
+}
+
+.lexicon_table tr {
+	height: 25px;
+}

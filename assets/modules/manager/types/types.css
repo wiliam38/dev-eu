@@ -1,0 +1,12 @@
+.image-td {
+	text-align: center;
+	white-space: nowrap;
+}
+.image-td .image_icon {
+	width: 100%;
+	max-height: 150px;
+}
+.image-td .image_icon img {
+	max-width: 100%;
+	max-height: 150px;
+}

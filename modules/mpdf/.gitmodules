@@ -1,0 +1,3 @@
+[submodule "vendor/mpdf"]
+	path = vendor/mpdf
+	url = git://github.com/roomcays/mpdf.git

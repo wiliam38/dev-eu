@@ -1,0 +1,14 @@
+.show-details {
+	margin: auto;
+}
+
+.order-details {
+	min-height: 20px;
+}
+
+.black {
+	color: #000000;
+}
+.black.red {
+	color: #994B4B;
+}

@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule .* ../../invoice.php?file=$0 [L]

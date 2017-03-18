@@ -1,0 +1,106 @@
+.product-filter .ui-combobox-input {
+	background-color: #f0f0f0;
+}
+
+input[type="text"].ui-combobox-input {
+	height: 31px;
+	padding: 2px 40px 2px 5px;
+	display: inline;
+	vertical-align: middle;
+	background-image: url('images/button-19bar.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: 0px none;
+	text-align: center;
+}
+input[type="text"].ui-combobox-input:hover {
+	/*background-image: url('images/button-hover-19bar.png');*/
+	cursor: default;
+}
+input[type="text"][disabled].ui-combobox-input,
+input[type="text"][disabled].ui-combobox-input:hover,
+input[type="text"][disabled].ui-combobox-input:active {
+	/*background-image: url('images/button-disabled-19bar.png');*/
+}
+
+input[type="text"].ui-combobox-input.small {
+	height: 21px;
+	padding: 2px 30px 2px 5px;
+	display: inline;
+	vertical-align: middle;
+	background-image: url('images/button-19bar-small.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+	border: 0px none;
+	text-align: center;
+}
+input[type="text"].ui-combobox-input.small:hover {
+	/*background-image: url('images/button-hover-19bar-small.png');*/
+	cursor: default;
+}
+input[type="text"][disabled].ui-combobox-input.small,
+input[type="text"][disabled].ui-combobox-input.small:hover,
+input[type="text"][disabled].ui-combobox-input.small:active {
+	/*background-image: url('images/button-disabled-19bar-small.png');*/
+}
+
+.ui-combobox-button {
+	width: 35px;
+	min-width: 35px !important;
+	border-left: 0px none;
+	overflow: hidden;
+	display: inline;
+	vertical-align: top;
+}
+.ui-combobox-button span.ui-icon {
+	margin-top: -7px !important;
+}
+
+.ui-autocomplete {
+	max-height: 156px;
+	overflow: auto;
+	overflow-x: hidden; 
+	z-index: 9999999999 !important;
+	border-radius: 0px !important;
+	background: #F0F0F0;
+	border: 1px solid #bdbdbd !important;	
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.ui-autocomplete .ui-menu-item {
+	min-height: 16px;
+	margin-right: 20px;
+	list-style: none !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	background: none;
+	border: 0px none !important;
+}
+.ui-autocomplete .ui-menu-item a {
+	min-height: 16px;
+	padding: 4px 8px 4px 8px;
+	font-family: "Open Sans";
+	font-size: 12px;
+	border-radius: 0px;
+	margin: 0px !important;
+	border: 0px none !important;
+}
+.ui-autocomplete .ui-menu-item.ui-state-hover a,
+.ui-autocomplete .ui-menu-item.ui-state-focus a,
+.ui-autocomplete .ui-menu-item.ui-state-focus .issComboboxActive {
+	background: #535353 !important;
+	color: #FFFFFF !important;
+	border: 0px none !important;
+}
+
+
+
+
+.ui-autocomplete-loading { 
+	background: white url('images/ui-anim_basic_16x16.gif') right center no-repeat; 
+}
+
+.issComboboxActive {
+	color: #000000;
+}

@@ -1,0 +1,48 @@
+#answers_table .image_icon img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.gallery-data .gallery-item {
+	float: left;
+	width: 200px;
+	padding: 30px 10px 10px 10px;
+	border: 1px solid #888888;
+	border-radius: 3px;
+	margin: 0px 5px 5px 0px;
+	position: relative;
+}
+.gallery-lang-title {
+	width: 32px;
+	display: block;
+	float: left;
+}
+.gallery-main-image {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	color: #000000;
+}
+.gallery-image-wrapper {
+	text-align: center;
+	width: 200px;
+	height: 170px;
+	margin-bottom: 5px;
+}
+.gallery-item-remove {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 19px;
+	color: #ff2222 !important;
+	padding: 1px;
+}
+.gallery-item-remove:hover {
+	border: 1px solid #888888;
+	border-radius: 3px;
+	padding: 0px;
+}

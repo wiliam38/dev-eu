@@ -1,0 +1,14 @@
+#php_flag magic_quotes_gpc Off
+
+# Turn on URL rewriting
+RewriteEngine On
+#RewriteBase   /
+
+# Protect hidden files from being viewed
+<Files .*>
+	Order Deny,Allow
+	Deny From All
+</Files>
+
+RewriteCond %{REQUEST_URI} !^/(files/|assets/|robots\.txt|humans\.txt|sql\.php|invoice\.php|favicon\.ico)
+RewriteRule .* index.php?/$0 [PT]

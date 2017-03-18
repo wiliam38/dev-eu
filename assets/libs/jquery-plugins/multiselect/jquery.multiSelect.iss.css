@@ -1,0 +1,105 @@
+a.multiSelect {
+	height: 19px;
+	border-radius: 3px 3px 3px 3px;
+	border: 1px solid #999999 !important;
+	padding-right: 25px;
+	display: inline-block;
+	vertical-align: top;
+	background-image: url('../../jquery-ui/images/button.png');
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 17px;
+	text-decoration: none;
+}
+
+a.multiSelect:link, a.multiSelect:visited, a.multiSelect:hover, a.multiSelect:active {
+	background-image: url('../../jquery-ui/images/button.png');
+	cursor: default;
+}
+
+a.multiSelect span
+{
+	margin: 1px 0px 1px 3px;
+	overflow: hidden;
+	display: -moz-inline-stack;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+a.multiSelect.hover {
+	background-image: url('../../jquery-ui/images/button-hover.png');
+	cursor: default;
+}
+
+a.multiSelect.active {
+	background-image: url('../../jquery-ui/images/button-hover.png');
+	cursor: default;
+}
+
+.multiSelectOptions {
+	overflow-y: auto;
+	overflow-x: hidden;
+	border: solid 1px #B2B2B2;
+	background: #FFF;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	
+	position: absolute;
+	cursor: default;
+	z-index: 3;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+	padding: 0px;
+}
+
+.multiSelectOptions LABEL {
+	padding: 0px 2px;
+	display: block;
+	white-space: nowrap;
+	text-align: left;
+	font-weight: normal;
+	line-height: 19px;
+	border: 0px none;
+}
+
+.multiSelectOptions .optGroupContainer LABEL {
+	padding-left: 10px;
+}
+
+.multiSelectOptions.optGroupHasCheckboxes .optGroupContainer LABEL
+{
+	padding-left: 18px;
+}
+
+.multiSelectOptions input{
+	vertical-align: middle;
+	margin-right: 7px;
+}
+
+.multiSelectOptions LABEL.checked {
+	background-color: #dce5f8;
+}
+
+.multiSelectOptions LABEL.selectAll {
+	border-bottom: dotted 1px #CCC;
+}
+
+.multiSelectOptions LABEL:hover {
+	font-weight: normal;
+	color: #313131;
+	background: #ededed url(images/bg_fallback.png) 0 -50px repeat-x;
+	background: -moz-linear-gradient(top, #b9e0f5 0%, #92bdd6 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b9e0f5), color-stop(100%,#92bdd6));
+	background: -webkit-linear-gradient(top, #b9e0f5 0%,#92bdd6 100%);
+	background: -o-linear-gradient(top, #b9e0f5 0%,#92bdd6 100%);
+	background: -ms-linear-gradient(top, #b9e0f5 0%,#92bdd6 100%);
+	background: linear-gradient(top, #b9e0f5 0%,#92bdd6 100%);
+}

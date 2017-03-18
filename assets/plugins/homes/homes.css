@@ -1,0 +1,96 @@
+.home-banners {
+	height: 100%;
+	overflow: hidden;
+	background: #000000;
+}
+
+.home-banners div.item {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+.home-banners div.item img.banner-image {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.home-banners .text {
+	width: 45%;
+	position: absolute;
+	bottom: 20%;
+	right: 0px;
+	color: #ffffff;
+}
+.home-banners .text .title {
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 600;
+	font-family: 'Open Sans';	
+	padding-right: 30px;
+	border-bottom: 1px solid #FFFFFF;
+	margin-bottom: 30px;
+	padding-bottom: 10px;
+}
+
+.home-banners .text .intro {
+	font-size: 20px;
+	font-family: 'Roboto';
+	font-style: italic;
+}
+.home-banners .text .intro p {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.home-banners .text .link {
+	margin-top: 30px;
+}
+.home-banners .text .link .button-green {
+	margin-right: 40px;
+}
+.home-banners .text .link .button-prev {
+	display: inline-block;
+	width: 26px;
+	height: 47px;
+	background: url('img/page-prev-black.png') no-repeat;
+	vertical-align: middle;
+	margin-right: 40px;
+}
+.home-banners .text .link .button-next {
+	display: inline-block;
+	width: 26px;
+	height: 47px;
+	background: url('img/page-next-black.png') no-repeat;
+	vertical-align: middle;
+}
+
+.home-banners .text .link .button-prev.white {
+	background: url('img/page-prev-white.png') no-repeat;
+}
+.home-banners .text .link .button-next.white {
+	background: url('img/page-next-white.png') no-repeat;
+}
+
+.home-banners .paginate {
+	position: absolute;
+	width: 100%;
+	bottom: 6%;
+	text-align: center;
+}
+.home-banners .paginate a {
+	margin: 0px 20px;
+	background: url('img/page-ico-black.png') no-repeat top center;
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+}
+.home-banners .paginate.white a {
+	background: url('img/page-ico-white.png') no-repeat top center;
+}
+.home-banners .paginate a.active {
+	background-position: bottom center;
+}

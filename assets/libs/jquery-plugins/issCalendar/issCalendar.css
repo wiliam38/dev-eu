@@ -1,0 +1,240 @@
+.issCalendar {
+	display: block;
+	position: absolute;
+	z-index: 9999999999;
+	width: 214px;
+	border: 1px solid #aaaaaa !important;
+	
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.issCalendar .ui-datepicker {
+	display: block;
+	width: auto;
+	float: none !important;
+}
+
+.issCalendarButton {
+	width: 19px;
+	height: 19px;
+	vertical-align: top;
+	margin: 1px;
+	float: none !important;
+}
+
+/* TABLE STYLE */
+.issCalendar td {
+	border: 0px none !important;
+	padding: 1px 2px !important;
+}
+.issCalendar th {
+	border: 0px none !important;
+	padding: 0px 2px;
+	background: transparent !important;
+}
+.issCalendar tr,
+.issCalendar tr:hover {
+	background-color: #FFFFFF !important;
+	background: transparent !important;
+	border: 0px none !important;
+	height: 18px !important;
+}
+
+.issCalendar > div > table {
+	border-spacing: 0px;
+}
+.issCalendar > div > table > tbody > tr > td {
+	padding: 0px !important;
+	vertical-align: top;
+}
+
+.issCalendar .issCalendarHeader {
+	line-height: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 2px 1px;
+	float: none !important;
+}
+.issCalendar .issCalendarHeader .ui-datepicker-title {
+	float: none !important;
+}
+
+.issCalendar .issCalendarTable {
+	margin: 3px 0px;
+	border-collapse: collapse;
+	width: 214px;
+}
+.issCalendar .issCalendarTable > tbody > tr > td {
+	text-align: left;
+	padding: 2px;
+	vertical-align: top;
+}
+
+.issCalendar td.issCalendarTableTitle {
+	width: 45px;
+	vertical-align: middle !important;
+}
+
+
+.issCalendar .issCalendarTableNoBottom td {
+	border-bottom: 0px none !important;
+}
+
+
+.issCalendar .issCalendarTable table {
+	border-spacing: 0px;
+}
+
+/* YEAR TABLE */
+.issCalendar .issCalendarYearTable {
+	float: right;
+}
+.issCalendar .issCalendarYearTable .issCalendarLink,
+.issCalendar .issCalendarYearTable .issCalendarDisabled {
+	width: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+.issCalendar .issCalendarYearTable .issCalendarActive {
+	width: 40px;
+	text-align: center;
+}
+
+/* MONTH TABLE */
+.issCalendar .issCalendarMonthTable {
+	width: 100%;
+	margin: 10px 0px;
+}
+.issCalendar .issCalendarMonthTable td {
+	height: 18px;
+	width: 25px;
+	text-align: center;
+}
+
+/* DAY TABLE */
+.issCalendar .issCalendarDayTable {
+	width: 100%;
+}
+.issCalendar .issCalendarDayTable th {
+	text-align: center;
+	font-weight: normal;
+	height: 18px;
+	width: 25px;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0px !important;
+}
+.issCalendar .issCalendarDayTable td {
+	text-align: center;
+	width: 25px;
+	height: 18px;
+	padding: 0px !important;
+}
+
+
+.issCalendar .issCalendarLink,
+.table.noborder .issCalendar .issCalendarLink {
+	border: 1px solid #FFFFFF !important;
+	border-width: 1px !important;
+	cursor: default;
+	font-size: 12px !important;
+	font-weight: normal;
+	height: 18px;
+}
+.issCalendar .issCalendarLink:hover {
+	background: #5F83B9;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 12px;
+	text-shadow: 0 1px 1px #234386;
+	height: 18px;
+}
+.issCalendar .issCalendarActive {
+	background: #5F83B9;
+	color: #FFF;
+	font-weight: bold;
+	text-shadow: 0 1px 1px #234386;
+	font-size: 12px;
+	border: 1px solid #FFFFFF !important;
+	height: 18px;
+}
+.issCalendar .issCalendarDisabled {
+	color: #999999;
+	border: 1px solid transparent !important;
+	cursor: default;
+	font-size: 12px;
+}
+
+/* BUTTONS */
+.issCalendarData {
+	float: none !important;
+	width: 214px;
+}
+.issCalendar .issCalendarButtons {
+	text-align: center;
+	margin: 5px auto 10px auto;
+	float: none !important;
+	width: 214px;
+}
+.issCalendar .issCalendarButtons input {
+	margin: 0px 2px;
+}
+
+/* TIME */
+.issCalendar .issCalendarTime {
+	border-left: 1px solid #aaaaaa !important;
+	vertical-align: top;
+	width: 60px;
+	border-spacing: 0px;
+}
+.issCalendar .issCalendarTime table {
+	border-spacing: 0px;
+}
+.issCalendar .issCalendarTime th {
+	font-weight: normal;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+.issCalendar .issCalendarTime td {
+	width: 20px;
+	height: 16px !important;
+	width: 16px !important;
+	padding: 0px;
+	text-align: center;
+}
+
+.issCalendar .ui-datepicker-prev {
+	position: absolute;
+	left: 4px;
+	top: 6px;
+	overflow: hidden;
+	height: 16px !important;
+	width: 16px !important;
+}
+.issCalendar .ui-datepicker-prev.ui-state-disabled:hover span {
+	background-position: 0px -32px !important;
+}
+.issCalendar .ui-datepicker-prev:hover span {
+	background-position: 0px -48px !important;
+}
+.issCalendar .ui-datepicker-next {
+	position: absolute;
+	right: 4px;
+	top: 6px;
+	overflow: hidden;
+	height: 16px;
+}
+.issCalendar .ui-datepicker-next:hover span {
+	background-position: -16px -48px !important;
+}
+.issCalendar .ui-datepicker-next.ui-state-disabled:hover span {
+	background-position: -16px -32px !important;
+}
+.issCalendar input.ui-button {
+	height: 20px !important;
+	min-width: 60px;
+	font-size: 12px !important;
+}

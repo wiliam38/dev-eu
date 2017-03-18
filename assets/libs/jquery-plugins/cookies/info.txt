@@ -1,0 +1,17 @@
+SET:
+	Once you embed the script into your code (include it like any other script) you can set cookies like this:
+		$.cookie("attribute", "value");
+	This is all you need to do, this cookie will be deleted after the session ends (which means that it will be deleted when you close your browser). If you want to, you can set the number of days that cookie will last, for example:
+		$.cookie("attribute", "value", { expires: 1 });
+	Cookie from above example will expire after one day. You can specify the path at which the cookie will be available. For example this cookie will be available on all paths at your domain:
+		$.cookie("attribute", "value", { path: '/' });
+	and this only at the ‘blog’ subpath:
+		$.cookie("attribute", "value", { path: 'blog' });
+
+Getting Cookies
+	To get the cookie you have to know its name, for example:
+		var cookieValue = $.cookie("attribute");
+
+Deleting Cookies
+	At any time you can delete your cookie, to that just set it’s value to ‘null’.
+		$.cookie("attribute", null);
