@@ -1,2 +1,6 @@
 .idea
 /tmp/
+/application/cache/
+/files/orders/
+/files/products/*.pdf
+/files/upload/

@@ -17,7 +17,7 @@ else
 }
 
 // PRODUCTION/DEVELOPMENT
-if(isset($_SERVER['SERVER_NAME']) AND in_array($_SERVER['SERVER_NAME'], array('19bar.dev', 'www.19bar.dev')))
+if(isset($_SERVER['SERVER_NAME']) AND in_array($_SERVER['SERVER_NAME'], array('19bar.dev', 'www.19bar.dev', '19bar.localhost', '19bar.devp.eu')))
     Kohana::$environment = Kohana::DEVELOPMENT;
 else
     Kohana::$environment = Kohana::PRODUCTION;
