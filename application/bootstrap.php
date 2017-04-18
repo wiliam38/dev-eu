@@ -101,7 +101,7 @@ if (empty($base_url)) $base_url = '/';
 Kohana::init(array(
 	'base_url'   => $base_url,
 	'errors' 	=> TRUE,
-	'caching'	=> TRUE,
+	'caching'	=> false,
 	'index_file' => '',
 ));
 

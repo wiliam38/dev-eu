@@ -1,3 +1,13 @@
+var mobile = {
+    init_events: function() {
+        console.log('events');
+        $('#mobile_menu').click(function() {
+            console.log('toggle menu');
+            $('.top-menu a, .working-time, .user').toggle();
+        });
+    }
+};
+
 $(document).ready(function() {
 	if (navigator.userAgent.toLowerCase().indexOf("chrome") >= 0) {
         var intervalId = 0;
@@ -22,6 +32,8 @@ $(document).ready(function() {
 	$('#content').show();
 	
 	if (parseInt($('#cart_qty').text()) > 0) $('#cart_content_button').show();
+
+    mobile.init_events();
 });
 
 

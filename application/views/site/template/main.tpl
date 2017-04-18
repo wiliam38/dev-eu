@@ -11,6 +11,7 @@
 		<link type="text/plain" rel="author" href="{$base_url}humans.txt" />
 		
 		<link rel="stylesheet" type="text/css" href="{'assets/templates/main/style.css'|mtime}"/>
+		<link rel="stylesheet" type="text/css" href="{'assets/templates/main/responsive.css'|mtime}"/>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,700,600&subset=latin-ext,cyrillic-ext' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic&subset=cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
 		
@@ -98,7 +99,12 @@
 				</div>
 			</div>
 			<div class="top-menu">
-				{plugin name="top_menu"} 
+				{plugin name="top_menu"}
+				<div class="mobile_only mobile_menu" id="mobile_menu">
+					<div class="mobile_menu_icon">
+						<div> Menu</div>
+					</div>
+				</div>
 			</div>
 			<div class="content-wrapper" id="content" style="display: none;">
 				<div class="content {if $page.plugin_controller == 1}no-padding{/if}">
